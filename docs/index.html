@@ -12,21 +12,30 @@
       <p>This repository contains a small Python game: <strong>boothgame.py</strong>.</p>
 
       <div class="buttons">
+        <a class="btn" href="https://share.streamlit.io/Dannywinson1/tradataa250boothgame/main/app.py" target="_blank">Open live app</a>
         <a class="btn" href="https://github.com/Dannywinson1/tradataa250boothgame">View on GitHub</a>
-        <a class="btn" href="https://raw.githubusercontent.com/Dannywinson1/tradataa250boothgame/main/boothgame.py" download>Download boothgame.py</a>
       </div>
+
+      <section>
+        <h2>Live dynamic app</h2>
+        <p>Deploy this repo to Streamlit Cloud and open this direct link from any device:</p>
+        <p><code>https://share.streamlit.io/Dannywinson1/tradataa250boothgame/main/app.py</code></p>
+      </section>
 
       <section>
         <h2>Run locally</h2>
         <ol>
-          <li>Download `boothgame.py` (button above) or clone the repo.</li>
-          <li>Open a terminal and run: <code>python boothgame.py</code></li>
+          <li>Clone the repo and install dependencies:</li>
         </ol>
+        <pre><code>git clone https://github.com/Dannywinson1/tradataa250boothgame.git
+cd tradataa250boothgame
+python -m pip install -r requirements.txt
+streamlit run app.py</code></pre>
       </section>
 
       <section>
         <h2>Notes</h2>
-        <p>This is a static frontend served by GitHub Pages. If the site doesn't appear within a few minutes, enable Pages in your repository settings and choose the <code>main</code> branch and <code>/docs</code> folder.</p>
+        <p>If the live app is not yet deployed, go to Streamlit Cloud, connect your GitHub account, and deploy the repository using `app.py`.</p>
       </section>
 
       <footer>
